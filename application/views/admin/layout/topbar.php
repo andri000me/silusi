@@ -188,7 +188,7 @@
         </li>
 
         <li>
-            <h4 class="page-title-main">Dashboard</h4>
+            <h4 class="page-title-main"><?= $page_title ?></h4>
         </li>
 
     </ul>

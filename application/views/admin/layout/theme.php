@@ -49,8 +49,10 @@
 <!-- /Right-bar -->
 
 <!-- Right bar overlay-->
-<div class="rightbar-overlay"></div>
+
+
+<!-- <div class="rightbar-overlay"></div>
 
 <a href="javascript:void(0);" class="right-bar-toggle demos-show-btn">
     <i class="mdi mdi-cog-outline mdi-spin"></i> &nbsp;Choose Theme
-</a>
+</a> -->

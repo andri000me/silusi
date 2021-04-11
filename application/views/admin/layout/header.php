@@ -17,7 +17,8 @@
     <link href="<?= base_url('assets/') ?>css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="<?= base_url('assets/') ?>css/app.min.css" id="app-stylesheet" rel="stylesheet" type="text/css" />
-
+    <!-- dropify -->
+    <link href="<?= base_url('assets/') ?>libs/fileuploads/css/dropify.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

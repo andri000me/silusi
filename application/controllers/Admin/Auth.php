@@ -52,6 +52,8 @@ class Auth extends CI_Controller
                     // $data = $user;
                     unset($user['password']);
                     $user['user_id'] = $user['id'];
+                    $user['user_id'] = $user['nama'];
+                    $user['user_id'] = $user['image'];
                     unset($user['id']);
                     $data = $user;
                     $this->session->set_userdata($data);
@@ -137,5 +139,16 @@ class Auth extends CI_Controller
             Data berhasil ditambah </div>');
             redirect('admin/auth');
         }
+    }
+
+    public function logout()
+    {
+        $this->session->unset_userdata('email');
+        $this->session->unset_userdata('nama');
+        $this->session->unset_userdata('role_id');
+        $this->session->all_userdata();
+        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
+        Kamu berhasil logout </div>');
+        redirect('admin/auth');
     }
 }
